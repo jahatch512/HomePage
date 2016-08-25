@@ -17,7 +17,7 @@ var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
     templateUrl: "views/music.html",
     controller: "musicController"
   });
-}).controller("newsController", function($scope, $http){
+}).controller("newsController", ["$scope", "$http", function($scope, $http){
   $scope.sources = ["TechCrunch", "HackerNews"];
   $http.get("https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty")
   .then(function(data){
@@ -68,9 +68,9 @@ var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
   }
   );
 
-}).controller("weatherController", function($scope, $http){
+}]).controller("weatherController", ["$scope", "$http", function($scope, $http){
   $scope.weather = "Sunny";
-  $http.get("http://api.wunderground.com/api/82cd17994b06145e/conditions/q/CA/San_Francisco.json")
+  $http.get("https://api.wunderground.com/api/82cd17994b06145e/conditions/q/CA/San_Francisco.json")
   .then(function(data){
     var currentObservation = data.data.current_observation;
     console.log(currentObservation);
@@ -112,7 +112,7 @@ var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
       $scope.time = "(no temperature available)";
     }
   });
-}).controller("sportsController", function($scope, $http){
+}]).controller("sportsController", ["$scope", "$http", function($scope, $http){
   $scope.sportSources = ["ESPN", "Bleacher Report"];
   $http.get("https://newsapi.org/v1/articles?source=espn&sortBy=top&apiKey=e464350201154d5bbeb3ee037abf09fb")
   .then(function(data){
@@ -141,6 +141,6 @@ var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
     }
   });
 
-}).controller("musicController", function($scope){
+}]).controller("musicController", ["$scope", function($scope){
   $scope.musicSources = ["Spotify", "SoundCloud"];
-});
+}]);
