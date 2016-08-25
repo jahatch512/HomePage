@@ -1,14 +1,14 @@
 # HomePage
 
-[HomePage][gh-pages] is a personal project I began for two primary reasons:
+[HomePage][gh-pages] is a personal project I began for three primary reasons:
 
 [gh-pages]: https://jahatch512.github.io/HomePage/#/
 
 
 
 1. To refine my skills and knowledge of AngularJS
-2. To create a personalized home page for myself by plugging into
-the API's of my favorite news, sports, weather, and music sources.
+2. To get comfortable interacting with 3rd party APIs and dynamically bind the content to front end components in Angular.
+3. To build a personalized "HomePage" for myself to visit to quickly access my favorite news, sports, music, and relevant weather information in an instant. 
 
 ## Design & Implementation
 
