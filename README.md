@@ -1,10 +1,10 @@
 # HomePage
 
-[HomePage][gh-pages]
+[HomePage][gh-pages] is a personal project I began for two primary reasons:
 
 [gh-pages]: https://jahatch512.github.io/JamesWorld
 
-HomePage is a personal project I began for two primary reasons:
+
 
 1. To refine my skills and knowledge of AngularJS
 2. To create a personalized home page for myself by plugging into
