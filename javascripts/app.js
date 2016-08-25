@@ -21,8 +21,6 @@ var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
   $scope.sources = ["TechCrunch", "HackerNews"];
   $http.get("https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty")
   .then(function(data){
-    console.log("first ajax");
-
     $http.get("https://hacker-news.firebaseio.com/v0/item/"+
     data.data[0]+
     ".json?print=pretty").then(
