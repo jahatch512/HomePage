@@ -1,10 +1,10 @@
-# OkCoFounder
+# HomePage
 
-[OkCoFounder Site][gh-pages]
+[HomePage][gh-pages]
 
 [gh-pages]: https://jahatch512.github.io/JamesWorld
 
-JamesWorld is a personal project I began for two primary reasons:
+HomePage is a personal project I began for two primary reasons:
 
 1. To refine my skills and knowledge of AngularJS
 2. To create a personalized home page for myself by plugging into
@@ -68,4 +68,4 @@ controller("newsController", ["$scope", "$http", function($scope, $http){
 
 ### Future Directions for the Project
 
-One major addition will be the integration of the Spotify API with my own private account to allow me to search my artists and playlists from within JamesWorld. I also plan to include more news and sports stories, as well as a more detailed weather report. I also intend to plug in to some of my favorite RSS feeds and create a seamless feed. The best part about this project is that I am building something customized for my interests so I will be continuing to improve and tailor it as I see fit.
+One major addition will be the integration of the Spotify API with my own private account to allow me to search my artists and playlists from within my HomePage. I also plan to include more news and sports stories, as well as a more detailed weather report. I also intend to plug in to some of my favorite RSS feeds and create a seamless feed. The best part about this project is that I am building something customized for my interests so I will be continuing to improve and tailor it as I see fit.
