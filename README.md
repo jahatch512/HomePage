@@ -6,9 +6,9 @@
 
 
 
-1. To refine my skills and knowledge of AngularJS
+1. To refine my skills and knowledge of AngularJS.
 2. To get comfortable interacting with 3rd party APIs and dynamically bind the content to front end components in Angular.
-3. To build a personalized "HomePage" for myself to visit to quickly access my favorite news, sports, music, and relevant weather information in an instant. 
+3. To build a personalized "HomePage" for myself to visit to quickly access my favorite news, sports, music, and relevant weather information in an instant.
 
 ## Design & Implementation
 
