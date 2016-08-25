@@ -1,0 +1,47 @@
+<div class="news-page" ng-controller="newsController">
+  <div id="news-page-greeting">
+    Hi, and welcome to the news page here at James World! Below you will
+    find the latest top stories from James's favorite sites, including
+    HackerNews and TechCrunch.
+  </div>
+
+
+  <div id="news-stories">
+    <div class="scroll-feed">
+      <h4>Hacker News</h4>
+      <div class="news-title">
+        <div class="story-details">
+          <h3>Title:</h3>
+            {{title1}}
+          <br />
+          <h3>Story Text:</h3>
+            {{text1}}
+          <br />
+          <h3>Link:</h3>
+          {{url1}}
+        </div>
+      </div>
+
+    </div>
+    <div class="scroll-feed">
+      <h4>Tech Crunch</h4>
+      <div class="news-title">
+        <div class="story-details">
+
+          <h3>Title:</h3>
+          {{title2}}
+          <br />
+          <h3>Description:</h3>
+          {{description}}
+          <br />
+          <h3>Link:</h3>
+          {{url2}}
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</div>

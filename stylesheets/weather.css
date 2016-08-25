@@ -1,0 +1,43 @@
+.weather-main-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.san-francisco, .weather-box {
+  margin: 10px 20px;
+}
+
+.san-francisco-picture {
+  border-radius: 50px;
+}
+
+.city-info {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.weather-report {
+  color: #95a5a6;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.weather-header {
+  color: #3498db;
+  font-size: 22px;
+  display: inline-block;
+  border-right: 1px solid #3498db;
+  padding-right: 7px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+}

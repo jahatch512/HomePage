@@ -1,0 +1,43 @@
+.sports-page {
+  height: 100%;
+}
+
+.sports-story-1 {
+  height: 250px;
+  width: 100%;
+  border-top: 1px dashed #7f8c8d;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.sport-section {
+  height: 250px;
+  border: 1px solid blue;
+}
+
+.sport-image {
+  width: 250px;
+}
+
+.sport-link {
+  color: #3498db;
+  font-size: 20px;
+}
+
+.sport-title {
+  margin: 25px 10px 15px 10px;
+}
+
+.sport-description {
+  color: #95a5a6;
+  margin: 0px 10px 15px 10px;
+
+}
+
+.sport-body {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}

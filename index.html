@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="JamesWorld">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="./stylesheets/homePage.css"></link>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/news.css"></link>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/sports.css"></link>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/music.css"></link>
+    <link rel="stylesheet" type="text/css" href="./stylesheets/weather.css"></link>
+    <script src="https://use.fontawesome.com/1399ed032f.js"></script>
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/angular-route/angular-route.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+
+    <title>JamesWorld</title>
+
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="banner">
+        <a href="#/" class="logo-link">James World</a>
+      </div>
+      <div class="nav-bar">
+        <a href="#/news" class="anchors">News</a>
+        <a href="#/weather" class="anchors">Weather</a>
+        <a href="#/sports" class="anchors">Sports</a>
+        <a href="#/music" class="anchors">Music</a>
+      </div>
+
+      <div class="main-body">
+        <div ng-view></div>
+
+      </div>
+
+
+
+      <div class="footer">
+        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/hatchjames"></a>
+        <a class="fa fa-github" href="https://github.com/jahatch512"></a>
+        <a class="fa fa-tumblr" href="http://jahatch512.tumblr.com/"></a>
+        <a class="fa fa-file-pdf-o" href="./assets/images/JamesHatchResume.pdf" download="JamesHatchResume"></a>
+      </div>
+
+    </div>
+
+
+
+
+
+    <script src="./javascripts/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<div class="weather-page" ng-controller="weatherController">
+  <div id="news-page-greeting">
+    Better check that weather before you head out for the day!
+  </div>
+
+  <div class="weather-main-body">
+    <div class="san-francisco">
+      <div class="city-info">
+        Location: {{location}}
+      </div>
+      <div class="sf-picture-box">
+        <img class="san-francisco-picture" src="../assets/images/goldenGateWeather.jpg" width="300px" height="300px" />
+      </div>
+    </div>
+    <div class="weather-box">
+      <div class="weather-image">
+        <img src="{{icon}}" width="60px" height="60px"/>
+      </div>
+      <div class="weather-report">
+        <div class="weather-header">Date/Time</div class="weather-header"> {{time}}
+      </div>
+      <div class="weather-report">
+        <div class="weather-header">Weather</div class="weather-header"> {{weather}}
+      </div>
+      <div class="weather-report">
+        <div class="weather-header">Temperature</div class="weather-header"> {{temp_f}} F
+      </div>
+      <div class="weather-report">
+        <div class="weather-header">Feels Like</div class="weather-header">  {{feelsLike}}
+      </div>
+    </div>
+  </div>

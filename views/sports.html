@@ -1,0 +1,24 @@
+<div class="sports-page" ng-controller="sportsController">
+  <div id="news-page-greeting">
+    Hi, and welcome to the sports page here at James World! Below you will
+    find the latest sports news straight from ESPN.
+  </div>
+
+
+  <div id="sports-stories">
+    <div class="sports-story-1">
+      <div class="sport-section sport-image">
+        <img src="{{image}}" width='250px' height="250px"/>
+      </div>
+      <div class="sport-body">
+        <div class="sport-title">
+          <a class="sport-link" href="{{url}}">{{title}}</a>
+        </div>
+        <div class="sport-description">
+          {{description}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
