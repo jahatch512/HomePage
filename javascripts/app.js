@@ -2,10 +2,10 @@
 var JamesWorld = angular.module('JamesWorld', ["ngRoute"])
 .config(function($routeProvider){
   $routeProvider.when("/", {
-    templateUrl: "../views/home.html",
+    templateUrl: "views/home.html",
     controller: "newsController"
   }).when("/news", {
-    templateUrl: "../views/news.html",
+    templateUrl: "views/news.html",
     controller: "newsController"
   }).when("/weather", {
     templateUrl: "views/weather.html",
